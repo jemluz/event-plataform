@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 
+.example {
+    @aplly text-5xl font-bold text-violet-500;
+}
+equals to <tag className="text-5xl font-bold text-violet-500"></tag>
+*/
+
+body {
+    @apply bg-zinc-900 text-zinc-100;
+}
